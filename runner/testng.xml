@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Pagele Object Mod">
+	<listeners>
+		<listener class-name="base.TestListners"></listener>
+	</listeners>
+	<test thread-count="1" name="test and quize">
+		<classes>
+			<class name="testPages.TestHomePage" />
+			<class name="testPages.TestLoginPage" />
+			<class name="testPages.TestContactPage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

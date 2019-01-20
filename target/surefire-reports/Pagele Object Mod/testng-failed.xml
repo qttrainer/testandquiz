@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Pagele Object Mod]">
+  <listeners>
+    <listener class-name="base.TestListners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="test and quize(failed)">
+    <classes>
+      <class name="testPages.TestContactPage">
+        <methods>
+          <include name="verifyAddress"/>
+        </methods>
+      </class> <!-- testPages.TestContactPage -->
+    </classes>
+  </test> <!-- test and quize(failed) -->
+</suite> <!-- Failed suite [Pagele Object Mod] -->

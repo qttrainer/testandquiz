@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.375 s <<< FAILURE! - in TestSuite
+verifyAddress(testPages.TestContactPage)  Time elapsed: 2.389 s  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [1]
+	at testPages.TestContactPage.verifyAddress(TestContactPage.java:20)
+
